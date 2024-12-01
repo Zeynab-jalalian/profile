@@ -137,3 +137,18 @@ body{
 .profile .data .data-form:last-child{
     border-right: none;
 }
+/* Responsive */
+@media(max-width:400px){
+    .profile .btns a {
+        margin: 10px;
+        display: block;
+    }
+    .profile{
+        max-width: 270px;
+    }
+}
+@media(max-width:280px){
+    .profile{
+        max-width: 170px;
+    }
+}
