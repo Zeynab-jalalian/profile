@@ -17,6 +17,18 @@ body{
     align-items: center;
     background: #eee;
 }
+.profile{
+    max-width: 370px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.5);
+}
 .profile .img{
     width: 150px;
     height: 150px;  
@@ -70,4 +82,15 @@ body{
 }
 .profile .icons ul li:hover{
     background: black !important;
+}
+.profile .btns{
+    margin-top: 30px;
+}
+.profile .btns a{
+    margin: 0 10px;
+    color: white;
+    background: rgb(0, 38, 255);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 14px;
 }
