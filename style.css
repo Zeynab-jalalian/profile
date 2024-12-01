@@ -68,3 +68,6 @@ body{
     color: white;
     font-size: 14px;
 }
+.profile .icons ul li:hover{
+    background: black !important;
+}
