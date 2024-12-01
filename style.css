@@ -91,10 +91,12 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   transition: 0.2s;
 }
-.profile .icons ul li a span{
+.profile .icons ul li  span{
     color: white;
     font-size: 14px;
+    cursor: pointer;
 }
 .profile .icons ul li:hover{
     background: black !important;
