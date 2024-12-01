@@ -38,7 +38,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: rgb(0, 38, 255);
+    background: rgb(0 137 255);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     width: 100%;
@@ -48,7 +48,7 @@ body{
     width: 150px;
     height: 150px;  
     border-radius: 50%;
-    background-color: rgb(0, 38, 255);
+    background-color: rgb(0 137 255);
     padding: 3px;
     z-index: 1;
 }
@@ -107,7 +107,7 @@ body{
 .profile .btns a{
     margin: 0 10px;
     color: white;
-    background: rgb(0, 38, 255);
+    background: rgb(0 137 255);
     padding: 10px 20px;
     border-radius: 25px;
     font-size: 14px;
