@@ -106,4 +106,8 @@ body{
     padding: 10px 20px;
     border-radius: 25px;
     font-size: 14px;
+    transition: 0.5s;
+}
+.profile .btns a:hover{
+    background: #000;
 }
