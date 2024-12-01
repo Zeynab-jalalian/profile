@@ -114,3 +114,24 @@ body{
 .profile .btns a:hover{
     background: #000;
 }
+.profile .data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.profile .data .data-form{
+    padding: 10px;
+    border-right: 1px solid #707070;
+}
+.profile .data .data-form span{
+    cursor: pointer;
+    color: #616161;
+    transition: 0.5s;
+}
+.profile .data .data-form:hover span{
+   color: #000;
+}
+.profile .data .data-form:last-child{
+    border-right: none;
+}
